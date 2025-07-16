@@ -1,0 +1,103 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Patient {
+    int id;
+    String name;
+    int age;
+    String disease;
+
+    public Patient(int id, String name, int age, String disease) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.disease = disease;
+    }
+
+    public void displayInfo() {
+        System.out.println("ID: " + id + ", Name: " + name + ", Age: " + age + ", Disease: " + disease);
+    }
+}
+
+public class HospitalPatientRecordSystem {
+    static ArrayList<Patient> patients = new ArrayList<>();
+    static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int choice;
+
+        do {
+            System.out.println("\n=== Hospital Patient Record System ===");
+            System.out.println("1. Add Patient");
+            System.out.println("2. View All Patients");
+            System.out.println("3. Search Patient by ID");
+            System.out.println("4. Exit");
+            System.out.print("Enter your choice: ");
+            choice = scanner.nextInt();
+
+            switch (choice) {
+                case 1:
+                    addPatient();
+                    break;
+                case 2:
+                    viewPatients();
+                    break;
+                case 3:
+                    searchPatient();
+                    break;
+                case 4:
+                    System.out.println("Exiting... Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid choice, please try again.");
+            }
+        } while (choice != 4);
+    }
+
+    public static void addPatient() {
+        System.out.print("Enter Patient ID: ");
+        int id = scanner.nextInt();
+        scanner.nextLine(); 
+        System.out.print("Enter Patient Name: ");
+        String name = scanner.nextLine();
+        System.out.print("Enter Patient Age: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Enter Disease: ");
+        String disease = scanner.nextLine();
+
+        Patient newPatient = new Patient(id, name, age, disease);
+        patients.add(newPatient);
+        System.out.println("Patient added successfully.");
+    }
+
+    public static void viewPatients() {
+        if (patients.isEmpty()) {
+            System.out.println("No patients found.");
+            return;
+        }
+        System.out.println("\n--- Patient Records ---");
+        for (Patient patient : patients) {
+            patient.displayInfo();
+        }
+    }
+
+    public static void searchPatient() {
+        System.out.print("Enter Patient ID to search: ");
+        int id = scanner.nextInt();
+        boolean found = false;
+
+        for (Patient patient : patients) {
+            if (patient.id == id) {
+                System.out.println("Patient Found:");
+                patient.displayInfo();
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            System.out.println("Patient with ID " + id + " not found.");
+        }
+    }
+}
