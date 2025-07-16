@@ -1,28 +1,48 @@
-<h1 align="center">Hi 👋, I'm Janethree</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hi 👋, I'm Janethree Randisha Bandara</h1>
+<h3 align="center">💻 Passionate Web Developer & Designer from Sri Lanka 🇱🇰</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=janethree12&label=Profile%20views&color=0e75b6&style=flat" alt="janethree12" /> </p>
 
-- 🌱 I’m currently learning **HNDIT**
+<img align="center" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:7758d1&height=180&section=header&text=Welcome%20to%20My%20GitHub!&fontSize=30&fontColor=ffffff" />
 
-- 📝 I regularly write articles on [https://knittingadn.blogspot.com/2024/10/knitting-and-non-woven-introduction.html](https://knittingadn.blogspot.com/2024/10/knitting-and-non-woven-introduction.html)
+---
 
-- 💬 Ask me about **html , css , js, java**
+### 📚 Education & Certifications:
+- 🎓 HNDIT – SLIATE
+- 💻 Diploma in IT – ESOFT Metro Campus
+- 🗣 Diploma in English – ESOFT Metro Campus
+- 📜 Certificate in IT – Vocational Training Authority
 
-- 📫 How to reach me **rr4482621@gmail.com**
+---
 
-- ⚡ Fun fact **Call me as Chuti**
+### 🔥 Tech Stack
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/janethree randisha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="janethree randisha" height="30" width="40" /></a>
-<a href="https://instagram.com/janethree_1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="janethree_1" height="30" width="40" /></a>
-<a href="https://discord.gg/janethree_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="janethree_" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,git,figma,vscode" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=janethree12&show_icons=true&locale=en&layout=compact" alt="janethree12" /></p>
+### 🚀 GitHub Stats
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=janethree12&show_icons=true&locale=en" alt="janethree12" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=JANETHREE12&show_icons=true&theme=radical" alt="JANETHREE12 Stats" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JANETHREE12&theme=radical" alt="GitHub Streak" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JANETHREE12&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+---
+
+### 📫 Contact Me
+
+- 📧 Email: *rr4482621@gmail.com*
+- 🔗 LinkedIn: [linkedin.com/in/janethree-randisha-86a1812a8](http://janethree-randisha-86a1812a8/)
+- 🐙 GitHub: [github.com/JANETHREE12](https://github.com/JANETHREE12)
+
+---
+
+> "Design is not just what it looks like and feels like. Design is how it works." – Steve Jobs
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7758d1,100:6e40c9&height=100&section=footer" />
