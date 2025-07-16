@@ -1,0 +1,56 @@
+package curancyconverter;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class CurrencyConverter {
+    
+   
+    private static final Map<String, Double> exchangeRates = new HashMap<>();
+    private static final Scanner scanner = new Scanner(System.in);
+    private static final DecimalFormat df = new DecimalFormat("#.##");
+    
+
+    static {
+        exchangeRates.put("USD", 1.0);        
+        exchangeRates.put("EUR", 0.85);       
+        exchangeRates.put("GBP", 0.73);       
+        exchangeRates.put("JPY", 110.0);     
+        exchangeRates.put("CAD", 1.25);       
+        exchangeRates.put("AUD", 1.35);       
+        exchangeRates.put("CHF", 0.92);       
+        exchangeRates.put("CNY", 6.45);       
+        exchangeRates.put("INR", 74.5);       
+        exchangeRates.put("BRL", 5.2);        
+        exchangeRates.put("RUB", 75.0);       
+        exchangeRates.put("KRW", 1180.0);     
+        exchangeRates.put("SGD", 1.35);       
+        exchangeRates.put("HKD", 7.8);        
+        exchangeRates.put("SEK", 8.6);        
+    }
+    
+    public static void main(String[] args) {
+        System.out.println("=================================================");
+        System.out.println("        WELCOME TO CURRENCY CONVERTER");
+        System.out.println("=================================================");
+        
+        while (true) {
+            displayMenu();
+            int choice = getUserChoice();
+            
+            switch (choice) {
+                case 1 -> performConversion();
+                case 2 -> displayAllRates();
+                case 3 -> displayAvailableCurrencies();
+                case 4 -> {
+                    System.out.println("\nThank you for using Currency Converter!");
+                    System.out.println("Goodbye!");
+                    return;
+                }
+                default -> System.out.println("\nInvalid choice! Please try again.");
+            }
+            
+            System.out.println("\nPress Enter to continue...");
+            scanner.nextLine();
+        }
