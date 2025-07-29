@@ -181,7 +181,7 @@
                 as well as individually. Additionally, I am capable of identifying problems and create effective solutions that keep projects 
                 on track and under budget.</p>
             <div class="btn-box">
-                <a href="https://www.linkedin.com/in/kavinda-ramesh-8406a4310/" class="btn">Read More!</a>
+                <a href="[linkedin.com/in/janethree-randisha-86a1812a8]http://janethree-randisha-86a1812a8/" class="btn">Read More!</a>
             </div>
         </div>
     </section>
